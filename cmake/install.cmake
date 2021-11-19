@@ -113,6 +113,8 @@ configure_file(protobuf-config.cmake.in
   ${CMAKE_INSTALL_CMAKEDIR}/protobuf-config.cmake @ONLY)
 configure_file(protobuf-config-version.cmake.in
   ${CMAKE_INSTALL_CMAKEDIR}/protobuf-config-version.cmake @ONLY)
+configure_file(protobuf-generate.cmake
+  ${CMAKE_INSTALL_CMAKEDIR}/protobuf-generate.cmake COPYONLY)
 configure_file(protobuf-module.cmake.in
   ${CMAKE_INSTALL_CMAKEDIR}/protobuf-module.cmake @ONLY)
 configure_file(protobuf-options.cmake

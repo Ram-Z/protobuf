@@ -218,6 +218,7 @@ include(libprotobuf.cmake)
 if (protobuf_BUILD_PROTOC_BINARIES)
   include(libprotoc.cmake)
   include(protoc.cmake)
+  include(protobuf-generate.cmake)
 endif (protobuf_BUILD_PROTOC_BINARIES)
 
 if (protobuf_BUILD_TESTS)
